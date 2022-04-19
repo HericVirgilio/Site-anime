@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=My+Soul&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=My+Soul&family=Roboto&display=swap');
+:root{
+    --cor01: #327FB7;
+    --cor02: #255182;
+    --cor03: #445C74;
+    --cor04: #001125;
+    --cor05: #020913;
+
+    --cor06: #327FB7;
+    --cor07: #255182;
+    --cor08: #445c749d;
+    --cor09: #001125d7;
+    --cor010: #020913;
+    
+    
+    --font01: 'Montserrat', sans-serif;
+    --font02: 'My Soul', cursive;
+    --font3: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: linear-gradient(to top , var(--cor04) , var(--cor03));
+}
+a#header{
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+a#header:hover{
+    background-color: var(--cor01);
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+body h1{
+    text-align: center;
+    font-family: var(--font03);
+}
+main{
+    background-color: var(--cor04);
+}
+header > h1{
+    padding: 30px;
+}
+section{
+    color: rgb(168, 164, 164);
+    background-color: black;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    font-family: var(--font01);
+    padding: 30px;
+}
+section > h2{
+    background-color: var(--cor09);
+    width: 400px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    position: relative;
+    top: 500px;
+    
+}
+section > p{
+    background-color: var(--cor09);
+    width: 400px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    position: relative;
+    top: 500px;
+}
+
+section#HxH{
+    background-image: url(imagens/hxh/hxh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 500px;
+    background-attachment: fixed;
+    border-radius: 20px 20px 0px 0px;
+}
+#SNK{
+    background-image: url(imagens/attack-on-titan/attack\ on\ titan.jpg);
+    padding-bottom: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#CodeGeass{
+    background-image: url(imagens/code-geass/code\ geass.jpg);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+#ElfenLied{
+    background-image: url(imagens/elfen-lied/elfen\ lied.png);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#FateZero{
+    background-image: url(imagens/fate-zero/fate\ zero.jpg);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#DemonSlayer{
+    background-image: url(imagens/demon-slayer/demon\ slayer.png);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#parasyte{
+    background-image: url(imagens/parasyte/parasyte.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#claymore{
+    background-image: url(imagens/claymore/claymore.jpg);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#rakudai{
+    background-image: url(imagens/rakudai-kishi/rakudai\ kishi\ no\ cavalry.png);
+    padding-bottom: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#noragami{
+    background-image: url(imagens/noragami/noragami.jpg);
+    padding-bottom: 500px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#Mai-san{
+    background-image: url(imagens/burnny-girl/burnny\ girl\ senpai.jpg);
+    padding-bottom: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#kaze-no-stigma{
+    background-image: url(imagens/kaze-no-sitiga/kaze\ no\ sitiga.jpg);
+    padding-bottom: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px 20px 0px 0px;
+}
+footer{
+    background-color: var(--cor05);
+    padding: 20px;
+    text-align: center;
+}
+a#footer{ 
+   padding: 30px;
+}
